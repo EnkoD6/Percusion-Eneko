@@ -4,3 +4,156 @@
   padding: 0;
 }
 
+#header{
+  background-color: rgb(140, 140, 140);
+  padding-top: 1%;
+  padding-bottom: 2%;
+  border-bottom: 3px solid black;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo{
+  font-size: larger;
+}
+
+.login{
+  font-size: larger;
+  margin-right: 3%;
+}
+
+.loginBtn{
+  font-size: x-large;
+}
+
+.top{
+  background-image: url('https://thumbs.dreamstime.com/b/wooden-texture-brown-wood-background-grunge-oak-board-51726440.jpg');
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2%;
+}
+.fondoObjetos{
+  background-image: url('https://www.sincable.mx/wp-content/uploads/2021/11/rCe-ALb-Paneles-acusticos-0-44015995_m.jpg');
+}
+
+.objeto{
+  background-color: rgb(200, 200, 200);
+  margin-left: 10%;
+  margin-right:10%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  padding: 2%;
+  border: 2px solid rgba(0, 0, 0, 0.400);
+  border-radius: 1%;
+  display: flex;
+  justify-content: left;
+}
+
+.objeto:first-child{
+  margin-top: 0px;
+}
+.objeto:last-child{
+  margin-bottom: 0px;
+}
+
+.imagenObjeto{
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  margin-top: 5%;
+  max-width: 50%;
+  height: auto;
+  border: 2px solid rgba(0, 0, 0, 0.600);
+}
+
+.infoObjeto{
+  margin: 5%;
+  margin-left: -15%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: larger;
+}
+
+.cartBtn{
+  margin-top: 15px;
+  padding: 16px;
+}
+
+#footer{
+  background-color: rgb(140, 140, 140);
+  border-top: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datosEmpresa{
+  font-size: large;
+  margin: 2%;
+}
+
+.rrss{
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 4%;
+  color: blue;
+}
+
+.rrssIcon:hover{
+  font-size: 210%;
+}
+
+.rrssIcon:visited{
+  color: blue
+}
+
+.panelCarrito{
+  background-color: rgb(200, 200, 200);
+  border: 2px solid rgba(0, 0, 0, 0.400);
+  border-radius: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  margin-right:10%;
+  margin-top: 2%;
+}
+
+.removeBtn{
+  padding: 3%;
+  border-radius: 3%;
+}
+
+.total{
+  margin-left: 2%;
+  margin-bottom:2.5%;
+  margin-top: 2%;
+  font-size: x-large;
+}
+
+.vaciar{
+  margin-bottom:2.5%;
+  margin-top: 2%;
+  font-size: x-large;
+  border-radius: 3%;
+}
+
+.toCheck{
+  margin-right: 75px;
+  padding: 8%;
+  font-size: x-large;
+  border-radius: 3%;
+}
+
+.resumenYDireccion{
+  display: flex;
+  justify-content: space-between;
+}

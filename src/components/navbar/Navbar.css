@@ -27,6 +27,7 @@
 .nav-menu.active {
     left: 0;
     transition: 350ms;
+    z-index: 10000;
 }
 
 .nav-text {
@@ -65,8 +66,4 @@
     display: flex;
     justify-content: start;
     align-items: center;
-}
-
-span {
-    margin-left: 16px;
 }
