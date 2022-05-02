@@ -157,3 +157,73 @@
   display: flex;
   justify-content: space-between;
 }
+
+.resumenCarrito{
+  background-color: rgb(200, 200, 200);
+  border: 2px solid rgba(0, 0, 0, 0.400);
+  border-radius: 1%;
+  margin: 1%;
+  padding: 2%;
+  margin-left: 20%;
+}
+
+.direccion{
+  background-color: rgb(200, 200, 200);
+  border: 2px solid rgba(0, 0, 0, 0.400);
+  border-radius: 1%;
+  margin: 1%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+}
+
+.logReg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 20%;
+  margin: 3%;
+  margin-left: 40%;
+}
+
+#logbtn{
+  max-width: 30%;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+  padding: 1%;
+}
+
+.registerLink{
+  padding: 6.4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#regBtn{
+  max-width: 30%;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+  padding: 1%;
+}
+
+.noAccess{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1%;
+  margin-left: 3%;
+}
+.noAccessImg{
+  max-width: 30%;
+}
+
+.backInicio{
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.btnInicio{
+  padding: 3%;
+}

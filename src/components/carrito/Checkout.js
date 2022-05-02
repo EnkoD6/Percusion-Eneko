@@ -54,9 +54,11 @@ function Checkout(){
     } else {
         return(
         <>
-        <h3>No tienes acceso</h3>
-        <p>Por favor logeate o registrate si todavia no lo has hecho.</p>
-        <img src='https://i.etsystatic.com/20369550/r/il/744c62/1948711877/il_fullxfull.1948711877_sq79.jpg' alt='you shall not pass' class='accessDenied'/>
+        <div className='noAccess'>
+            <h3>No tienes acceso</h3>
+            <p>Por favor logeate o registrate si todavia no lo has hecho.</p>
+            <img src='https://i.etsystatic.com/20369550/r/il/744c62/1948711877/il_fullxfull.1948711877_sq79.jpg' alt='you shall not pass' class='noAccessImg'/>
+        </div>
     </>
         )   
     }
@@ -67,7 +69,7 @@ function Checkout(){
             <h3>Checkout</h3>
         </div>
         <div class='resumenYDireccion'>
-            <div>
+            <div class='resumenCarrito'>
                 <div>
                     <h4>Resumen del carrito:</h4>
                 </div>
@@ -90,8 +92,12 @@ function Checkout(){
                     <input type='number' maxlength="5" size='5' id='codigoPostal'/>
                     <p>Localidad</p>
                     <input type='text' id='localidad'/>
-                    <input type="checkbox" id='terminos'/><label for='terminos'>Aceptar terminos y condiciones</label>
-                    <Link to='/Pago'><button type='submit' id='checkbtn'>Continuar con el pago</button></Link>
+                    <div>
+                        <input type="checkbox" id='terminos'/><label for='terminos'>Aceptar terminos y condiciones</label>
+                    </div>
+                    <div>
+                        <Link to='/Pago'><button type='submit' id='checkbtn'>Continuar con el pago</button></Link>
+                    </div>
                 </div>
             </div>
         </div>

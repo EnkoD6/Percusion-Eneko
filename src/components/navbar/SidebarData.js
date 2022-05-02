@@ -37,18 +37,18 @@ export const SidebarData = [
         icon: <GiIcons.GiChopsticks />,
         cName: 'nav-text'
     },
-    {
-        title: 'Area Cliente',
-        path: '/Cliente',
-        icon: <FiIcons.FiUser/>,
-        cName: 'nav-text'
-    },
-    {
-        title: 'Segunda Mano',
-        path: '/SegundaMano',
-        icon: <FaIcons.FaDrum />,
-        cName: 'nav-text'
-    },
+    // {
+    //     title: 'Area Cliente',
+    //     path: '/Cliente',
+    //     icon: <FiIcons.FiUser/>,
+    //     cName: 'nav-text'
+    // },
+    // {
+    //     title: 'Segunda Mano',
+    //     path: '/SegundaMano',
+    //     icon: <FaIcons.FaDrum />,
+    //     cName: 'nav-text'
+    // },
     {
         title: 'Mi Carrito',
         path: '/Carrito',

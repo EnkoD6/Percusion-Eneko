@@ -32,9 +32,11 @@ function Pago(){
   } else {
       return(
       <>
+      <div className='noAccess'>
       <h3>No tienes acceso</h3>
       <p>Por favor logeate o registrate si todavia no lo has hecho.</p>
       <img src='https://i.etsystatic.com/20369550/r/il/744c62/1948711877/il_fullxfull.1948711877_sq79.jpg' alt='you shall not pass' class='accessDenied'/>
+      </div>
   </>
       )}
   return (

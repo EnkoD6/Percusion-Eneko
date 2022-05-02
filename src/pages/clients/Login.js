@@ -27,7 +27,8 @@ function Login(){
             .then(function(res){
             alert(res.message);
             localStorage.setItem('login', 'ok')   
-            window.location.reload()
+            // window.location.reload()
+            window.location.href = 'http://localhost:3000/'
         })
     }     
     
@@ -57,7 +58,7 @@ if (localStorage.getItem('login')) {
                 <input type="password" id='logpassword'/>
                 <button onClick={loginUser} id='logbtn'>Enviar</button>
                 <nav>
-                    <Link to='Registro'><button>Registro</button></Link>
+                    <Link to='Registro'><button  class='registerLink'>Registro</button></Link>
                 </nav>
             </div>
             <Outlet />

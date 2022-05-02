@@ -5,7 +5,7 @@ function Registro(){
     let [user, setUser] = useState([]);
     useEffect(()=>{
 
-        document.querySelector('#btn').addEventListener('click', function(){
+        document.querySelector('#regBtn').addEventListener('click', function(){
             let username = document.querySelector('#username').value;
             let password = document.querySelector('#password').value;
             let role = "client"
@@ -35,16 +35,16 @@ function Registro(){
 
     return(
         <>
-            <div>
+            <div class='top'>
                 <h2>Registro</h2>
                 <p>Por favor, introduce tu nombre de usuario y contraseña.</p>
             </div>
-            <div>
+            <div class='logReg'>
                 <h4>Nombre de Usuario</h4>
                 <input type="text" id='username'/>
                 <h4>Contraseña</h4>
                 <input type="password" id='password'/>
-                <button type='submit' id='btn'>Enviar</button>
+                <button type='submit' id='regBtn'>Enviar</button>
             </div>
         </>
     )
